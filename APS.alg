@@ -1,8 +1,8 @@
-Algoritmo "semnome"
+Algoritmo "APS"
 // Disciplina  :  [Algoritmos II]
-// Professor   : AndrÈ Cotelli do EspÌrito Santo
-// DescriÁ„o   : Trabalho da APS.
-// Autor    : Gilberto Fernandes Alves
+// Professor   : Andr√© Cotelli do Esp√≠rito Santo
+// Descri√ß√£o   : Trabalho da APS.
+// Autor    : Gilberto Fernandes Alves e Matheus Ferreira Da Silva
 // Data atual  : 20/09/2017
 Tipo
     alunx = registro
@@ -38,7 +38,7 @@ Procedimento add_alu(i:inteiro)
          se(i <= 40) entao
            escreval("UNICARIOCA - BANCO DE DADOS")
            escreval("")
-           escreval("ADICIONAR USU¡RIO")
+           escreval("ADICIONAR USU√ÅRIO")
            escreval("")
 
            escreva("MATRICULA: ")
@@ -49,7 +49,7 @@ Procedimento add_alu(i:inteiro)
            fimenquanto
            se(i <> 1) entao
                 se(verifica_mat(i-1,matAlu)) entao
-                             escreva("J¡ TEM ESSA MATRICULA, DIGITE DE NOVO!")
+                             escreva("J√Å TEM ESSA MATRICULA, DIGITE DE NOVO!")
                              leia(matAlu)
                 fimse
            fimse
@@ -120,7 +120,7 @@ Inicio
    escreval("PESQUISAR USUARIO")
    escreval("")
    escreval("[1] PESQUISA SEQUENCIAL")
-   escreval("[2] PESQUISA BIN¡RIA")
+   escreval("[2] PESQUISA BIN√ÅRIA")
    leia(esc)
    escolha(esc)
                caso 1:
